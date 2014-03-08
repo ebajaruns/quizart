@@ -20,34 +20,37 @@
   background-color: transparent;
    
 }
+#galvene {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+
+}
 .win-backbutton {
         -ms-grid-column: 1;
         -ms-grid-row: 1;
+        float: left;
         margin-left: 100px;
         margin-top: 100px;
        }
-
-#about {
-  -ms-grid-column: 1;
-  -ms-grid-row: 1;
-  text-align: center;
-  font-weight:900;
-  font-size: 80px;
-  color: black;
-  margin: 100px 100px 0px 130px;
-  -ms-overflow-style: scrollbar;
-  }
+#apaksgalvene {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+        margin-left: 150px;
+        margin-top: 70px;
+        font-size: 60px;
+        font-weight:900;
+}
 #about1 {
   -ms-grid-column: 1;
   -ms-grid-row: 2;
   text-align: left;
   color: black;
-  margin: 10px 100px 100px 100px;
+  margin: 30px 100px 100px 100px;
   -ms-overflow-style: scrollbar;
 }
 @media (max-width:500px) {
    
-     .myGrid1 {
+  .myGrid1 {
   
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
