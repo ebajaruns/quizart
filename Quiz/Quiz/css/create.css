@@ -28,14 +28,14 @@
         -ms-grid-column: 1;
         -ms-grid-row: 1;
         float: left;
-        margin-left: 100px;
-        margin-top: 100px;
+        margin-left: 170px;
+        margin-top: 60px;
        }
 #apaksgalvene {
         -ms-grid-column: 1;
         -ms-grid-row: 1;
-        margin-left: 150px;
-        margin-top: 70px;
+        margin-left: 220px;
+        margin-top: 40px;
         font-size: 60px;
         font-weight:900;
 }
@@ -44,17 +44,27 @@
   -ms-grid-row: 2;
   text-align: left;
   padding: 10px 10px 10px 10px;
-  margin: 30px 120px 10px 150px;
+  margin: 50px 150px 10px 220px;
 }
-.Question {
-  background:  #FFFF01;
-  border: #008918 12px solid;
-  -ms-grid-column: 2;
-  -ms-grid-row: 1;
-  text-align: left;
-  color: #008918;
-  padding: 10px 10px 10px 10px;
-  margin: 120px 120px 10px 30px;
-  }
+#pakala {
+    -ms-grid-column: 1;
+    -ms-grid-row: 3;
+}
+.win-forwardbutton {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+        float: right;
+        margin-right: 50px;
+        margin-top: 20px;
+       }
+#apakspakala {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+        margin-right: 250px;
+        float: right;
+        margin-top: 40px;
+        font-weight:900;
+        background-color: dimgray;
+}
 
 

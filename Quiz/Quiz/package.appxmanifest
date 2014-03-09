@@ -1,47 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-
-  <Identity
-    Name="ba73582d-10ae-46a7-b335-0e7c104f5e02"
-    Version="1.0.0.0"
-    Publisher="CN=Edgars" />
-
+  <Identity Name="ba73582d-10ae-46a7-b335-0e7c104f5e02" Version="1.0.0.0" Publisher="CN=Edgars" />
   <Properties>
     <DisplayName>Quiz</DisplayName>
     <PublisherDisplayName>Edgars</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>
     <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application 
-      Id="App"
-      StartPage="default.html">
-
-      <m2:VisualElements
-        DisplayName="Quiz"
-        Description="Quiz"
-        ForegroundText="light"
-        BackgroundColor="#464646"
-        Square150x150Logo="images\Logo.png"
-        Square30x30Logo="images\SmallLogo.png">
-
-        <m2:SplashScreen Image="images\splashscreen.png" />
-
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="QuizArt" Description="QuizArt is application for quiz creation and sharing! You can create your own quizes and share them with other people and gather results for your information." ForegroundText="light" BackgroundColor="#0F76FF" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:DefaultTile Wide310x150Logo="images\widelogo.png" Square70x70Logo="images\squarelogo.png" DefaultSize="wide310x150Logo">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\splashscreen.png" BackgroundColor="#0F76FF" />
       </m2:VisualElements>
     </Application>
   </Applications>
-
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
-
 </Package>
