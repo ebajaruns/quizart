@@ -58,10 +58,12 @@
     <Content Include="css\create.css" />
     <Content Include="css\help.css" />
     <Content Include="css\segoe-ui-symbol.css" />
+    <Content Include="css\question.css" />
     <Content Include="css\take.css" />
     <Content Include="default.html" />
     <Content Include="html\create.html" />
     <Content Include="html\help.html" />
+    <Content Include="html\question.html" />
     <Content Include="html\take.html" />
     <Content Include="images\edgars.jpg" />
     <Content Include="images\edgarsss.png" />
