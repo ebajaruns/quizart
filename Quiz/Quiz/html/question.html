@@ -13,6 +13,7 @@
     <link href="/css/question.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/segoe-ui-symbol.css">
     <script src="/js/default.js"></script>
+    <script src="/html/question.js"></script>
 </head>
 <body>
     <div class="currentPage">
@@ -20,19 +21,26 @@
             <div id="galvene">
                 <a href="/default.html" class="win-backbutton" aria-label="Back"></a>
                 <div id="apaksgalvene"> Create Question</div>
+                <span id="currentTestName"></span>
             </div>
             <div class="Question">
-                <h2> Question 1 </h2>
-                <textarea cols="20" rows="4"> enter your question here</textarea>
+                <h2> Question <span id="questionNumber">1</span> </h2>
+                <textarea cols="20" id="questionText" rows="4"> enter your question here</textarea>
                 <h3> Answer A</h3>
-                <input type="text"> 
+                <input type="text" id="answerOption1" title="Enter the possible answer"> 
+                <input type="checkbox" title="Mark correct answer" />
                 <h3> Answer B</h3>
-                <input type="text">
+                <input type="text" id="answerOption2" title="Enter the possible answer">
+                <input type="checkbox" title="Mark correct answer" />
                 <h3> Answer C</h3>
-                <input type="text">
+                <input type="text" id="answerOption3" title="Enter the possible answer">
+                <input type="checkbox" title="Mark correct answer" />
+                <h3> Answer D</h3>
+                <input type="text" id="answerOption4" title="Enter the possible answer">
+                <input type="checkbox" title="Mark correct answer" />
                 <br />
                 <br />
-                <button type="submit"> Save question </button> <button type="button"> Add Next </button>
+                <button type="button" id="addNextQ" title="Add additional question to your quiz"> Add Next </button> <button type="submit" id="saveAndContinue" title="finish your quiz"> Finalize Quiz </button>
 
             </div>
           

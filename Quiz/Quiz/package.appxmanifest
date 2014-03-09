@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m2:VisualElements DisplayName="QuizArt" Description="QuizArt is application for quiz creation and sharing! You can create your own quizes and share them with other people and gather results for your information." ForegroundText="light" BackgroundColor="#0F76FF" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+      <m2:VisualElements DisplayName="QuizArt" Description="QuizArt is application for quiz creation and sharing! You can create your own quizes and share them with other people and gather results for your information." ForegroundText="dark" BackgroundColor="#1A81FF" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
         <m2:DefaultTile Wide310x150Logo="images\widelogo.png" Square70x70Logo="images\squarelogo.png" DefaultSize="wide310x150Logo">
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="wide310x150Logo" />

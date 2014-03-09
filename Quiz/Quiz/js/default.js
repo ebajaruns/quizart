@@ -28,5 +28,15 @@
         // args.setPromise().
     };
 
+    var db = null;
+    WinJS.Namespace.define("SdkSample", {
+        db: db,
+        quizName: '',
+    });
+
+    WinJS.Namespace.define("QuestionsForASingleQuiz", {
+        questionsList: new Array(),
+    });
+
     app.start();
 })();
